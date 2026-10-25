@@ -6,6 +6,7 @@ class Animal(ABC):
 # 3) Inside `Animal`, define an abstract method `move(self)`:
 #    a) This method is meant to be implemented by all subclasses.
 #    b) Use `pass` as a placeholder because the base class does not define the actual behavior.
+    @abstractmethod
     def move(self):
         pass
 # 4) Create a subclass `Human` that inherits from `Animal`:
